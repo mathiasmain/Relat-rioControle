@@ -36,7 +36,7 @@ bode(gn)
 MFatual = 41.9
 zeta=-log(0.03)/(sqrt(pi^2 + (log(0.03)^2)))
 a=zeta
-b=zeta*zeta
+b=a*a
 c=b*b
 d=sqrt(1+4*c)
 e=sqrt(-2*b+d)
@@ -67,4 +67,3 @@ bode(Gcomp)
 subplot(3,1,3)
 margin(Gcomp)
 
-% Colocar todo mundo junto e tirar um foto
